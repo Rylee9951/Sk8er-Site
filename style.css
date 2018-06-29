@@ -11,8 +11,62 @@ body{
 .opacity{
 	width: 100%;
 	background: rgb(0,0,0, .2);
+	position: relative;
+	top: -21px;
+}
+.circle {
+	width: 3px;
+    height: 3px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    right: -687px;
+    top: 18px;
+}
+.circles{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	top: 7px;
+	height: 18px;
+	padding-right: 5px;
+}
+.circle2{
+	width: 2px;
+    height: 2px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
 }
 
+ .arrow {
+    width: 219px;
+    height: 75px;
+    position: relative;
+    background: red;
+    top: 1048px;
+    left: -30px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    font-size: 22px;
+  }
+
+ .arrow:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0px;
+    width: 0px;
+    height: 35px;
+    border-left: 20px solid red;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
 .container{
 	width: 1000px;
 	margin: auto;
@@ -28,10 +82,7 @@ body{
 	position: relative;
     right: -680px;
 }
-.header > p::after{
-	content: ".";
-	padding-left: 3px;
-}
+
 .iconsTop{
 	display: flex;
 	width: 140px;
