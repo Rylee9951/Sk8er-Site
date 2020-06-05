@@ -158,8 +158,13 @@ body{
     background-size: 1470px 580px;
     margin-top: 20px;
 }
+.grid{
+	width: 989px;
+	position: relative;
+}
 .topImg > img{
 	padding: 8px;
+	z-index: 1;
 }
 .radio{
 	margin: 20px auto;
